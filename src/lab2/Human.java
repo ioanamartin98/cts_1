@@ -24,6 +24,7 @@ public class Human implements Runner {
 		this.age = age;
 	}
 	
+	//toString()
 	@Override
 	public String toString() {
 		return "" + age;
