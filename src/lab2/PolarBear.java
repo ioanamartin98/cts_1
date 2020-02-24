@@ -1,6 +1,6 @@
 package lab2;
 
-public class PolarBear {
+public class PolarBear extends Bear {
 	int POLAR_BEAR_SPEED=40;
 
 	public PolarBear() {

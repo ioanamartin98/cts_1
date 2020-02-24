@@ -1,6 +1,6 @@
 package lab2;
 
-public class Grizzly {
+public class Grizzly extends Bear{
 
 	int GRIZZLY_SPEED=45;
 

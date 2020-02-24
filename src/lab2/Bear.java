@@ -1,6 +1,6 @@
 package lab2;
 
-public class Bear extends PolarBear {
+public class Bear implements Runner {
 
 	
 	
@@ -12,6 +12,12 @@ public class Bear extends PolarBear {
 	@Override
 	public String toString() {
 		return "Bear [toString()=" + super.toString() + "]";
+	}
+
+	@Override
+	public int getSpeed() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 	
